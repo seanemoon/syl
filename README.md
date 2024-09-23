@@ -12,6 +12,12 @@ Software and documentation for my smart home server.
 
 I used `Raspberry Pi Imager` to install the most recent version of the 64-bit Raspberry Pi OS.
 
+> [!TIP]
+> I expected SSH to work out-of-the-box, but unfortunately I had to connect my Pi up to
+> a display and use the GUI to enable SSH service. I also enabled I2C and SPI service which
+> may have been necessary for the `ReSpeaker 2-Mics Pi Hat`.
+
+
 #### Kernel Version
 
 ```
